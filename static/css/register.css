@@ -1,0 +1,23 @@
+body{
+	height: auto !important;
+	min-height: 100vh;
+}
+
+.main-container{
+	max-height: fit-content !important;
+}
+
+.img-container{
+	margin-top: 5vh;
+	height: 30vh;
+}
+
+footer{
+	max-height: auto !important;
+	/*position: fixed;
+	bottom: 0;*/
+}
+
+a{
+	text-decoration: none !important;
+}

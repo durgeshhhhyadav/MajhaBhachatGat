@@ -1,0 +1,58 @@
+.bank-details, .transaction-details{
+	width: 100%;
+	max-width: 500px;
+	background-color: #F6F5FB;
+}
+
+.bank-details-inner{
+	border-radius: 5px;
+}
+
+.transaction-details .table-header{
+	border-radius: 0;
+}
+
+.bg-orange{
+	background: #cf3636;
+}
+
+.entries-search label{
+	color: #000;
+	padding: 0;
+	margin-top: 0.4rem !important;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.entries-search .form-group.row input{
+    box-shadow: none !important;
+    color: #495057 !important;
+    background-color: #fff !important;
+}
+
+.table-container{
+	padding-top: 0 !important;
+}
+
+#add_balance_modal .modal-body input[type="text"], #add_balance_modal .modal-footer button{
+	height: 50px;
+}
+
+#bank_modal .modal-body input[type="text"], #bank_modal .modal-body input[type="number"], #bank_modal .modal-footer button{
+	height: 50px;
+}
+
+#add_balance_modal .modal-body form input[type="radio"]{
+	height: 15px !important;
+	width: 15px;
+    background: none !important;
+    box-shadow: none !important;
+}
+
+.form-check-label::before{
+    background-color: darkorange !important;
+}
+
+#add_balance_modal .modal-body form label{
+	margin-top: 0.1rem !important;
+}

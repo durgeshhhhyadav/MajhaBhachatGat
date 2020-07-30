@@ -1,0 +1,104 @@
+.input-group-prepend{
+	max-width: 50px;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.input-group-prepend .input-icon{
+    max-width: 18px;
+    max-height: 25px;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #FFF !important;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #FFF !important;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #FFF !important;
+}
+
+input[type=text]{
+	font-weight: 600;
+	background-color: rgba(207, 54, 54, 0.3);
+	text-align: center;
+}
+
+.btn-white{
+	height: auto !important;
+	font-size: 1.2rem;
+}
+
+.help-text{
+	font-size: 0.9rem;
+    color: #FFF;
+}
+
+.sign-up-text{
+	cursor: pointer;
+	text-decoration: none !important;
+}
+
+.sign-up-text:hover{
+	color: red !important;
+}
+
+.main-container{
+	max-height: 90vh;
+}
+
+footer{
+	max-height: 10vh;
+}
+
+.mastfoot .inner {
+	color: #FFF;
+	font-size: 0.8rem;
+}
+
+
+/*.hr-text {
+   width: 100%;
+    text-align: center;
+    border-bottom: 2px solid #FFF;
+    line-height: 0em;
+    margin: 10px 0 20px;
+    font-size: 1.2rem;
+} 
+*/
+.hr-text span { 
+    color: #FFF;
+    padding: 0 5px;
+}
+
+.hr-text {
+  overflow: hidden;
+  text-align: center;
+}
+
+.hr-text:before,
+.hr-text:after {
+  background-color: #FFF;
+  content: "";
+  display: inline-block;
+  height: 2px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+}
+
+.hr-text:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+.hr-text:after {
+  left: 0.5em;
+  margin-right: -50%;
+}

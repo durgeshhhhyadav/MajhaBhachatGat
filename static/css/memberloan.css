@@ -1,0 +1,9 @@
+#issue_loan_modal .modal-body select, #issue_loan_modal .modal-body input{
+	height: 50px !important;
+	background-color: rgba(255,130,172,0.5) !important;
+    color: #FFF !important;
+}
+
+#issue_loan_modal .modal-footer button{
+	height: 50px;
+}

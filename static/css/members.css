@@ -1,0 +1,51 @@
+.members-table{
+	width: 100%;
+	max-width: 600px;
+	background-color: #F6F5FB;
+	border-radius: 5px;
+}
+
+.members-table .table{
+	width: 100%;
+	max-width: 500px !important;
+}
+
+.table-container{
+	min-width: 100%;
+	background-color: #F6F5FB;
+}
+
+.table-header{
+	height: 3.4rem;
+	font-size: 1.1rem;
+	color: #FFF;
+	border-radius: 5px 5px 0 0;
+	padding: 0.6rem;
+}
+
+.table-header .table-name{
+	vertical-align: middle;
+	margin-left: 0.3rem;
+}
+
+.table-header .add-icon{
+	cursor: pointer;
+	float: right;
+	vertical-align: middle;
+    font-size: 1.3rem;
+    margin-right: 0.3rem;
+}
+
+.table-header .add-icon i{
+	vertical-align: bottom;
+}
+
+table tr td, table tr th{
+	vertical-align: middle !important;
+	text-align: center;
+	font-weight: 600;
+}
+
+table tr td i{
+	font-size: 1.5rem !important;
+}

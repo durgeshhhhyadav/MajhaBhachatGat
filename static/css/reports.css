@@ -1,0 +1,59 @@
+.page-heading{
+	color: #cf3636;
+}
+
+.bank-details-inner form{
+	width: 100%;
+	max-width: 500px;
+}
+.btn-outline-red{
+	background-color: #FFF;
+    border: 1px solid #ced4da;
+    text-align: left !important;
+}
+
+.font-bold{
+	font-weight: 600;
+}
+
+.fa-circle{
+	color: #cf3636;
+}
+
+.bank-details-inner form .form-check-big input[type="radio"]{
+	height: 15px !important;
+	width: 15px;
+	box-shadow: none !important;
+}
+
+.bank-details-inner form .form-check label{
+	color: #000 !important;
+    margin-top: 0 !important;
+    font-size: 1rem
+}
+
+.form-check.btn.btn-outline-red{
+	padding-left: 2rem;
+}
+
+.input-white label{
+	color: #000 !important;
+	font-size: 1rem
+}
+
+.input-white input{
+	color: #FFF !important;
+    background: linear-gradient(#cf3636, #f07c00) !important;
+    box-shadow: none !important;
+}
+
+.small-check{
+	height: 12px !important;
+	width: 12px;
+	box-shadow: none !important; 
+}
+
+.format-group{
+	font-size: 0.9rem;
+	font-weight: 500;
+}

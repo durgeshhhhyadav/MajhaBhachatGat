@@ -1,0 +1,74 @@
+<!doctype html>
+{% load static %}
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <!-- Custome CSS -->
+    <link rel="stylesheet" href="{% static 'css/index.css' %}">
+    <link rel="stylesheet" href="{% static 'css/login.css' %}">
+
+    <title>Home</title>
+  </head>
+  <body>
+    <div class="container-fluid main-container">
+        <div class="container inner-container pt-3 pb-3">
+            <!-- Logo container starts -->
+            <div class="img-container">
+                <img src="{% static 'images/download_20200719_185148.png' %}" class="logo img-fluid">
+            </div>
+            <!-- Logo Container Ends -->
+
+            <!-- Welcome Text Starts -->
+            <h5 class="hr-text mt-5 mb-3"><span>Verify OTP</span></h5>
+            <!-- Welcome Text Ends -->
+            
+            <!-- Language Options Starts -->
+            <form method="post">
+                {% csrf_token %}
+                <div class="text-center text-white d-flex language-options welcome-text">
+                    <div class="input-group mb-3">
+                      <div class="input-group-prepend form-control">
+                            <img src="{% static 'images/icons/mobile_icon.png' %}" class="input-icon">
+                      </div>
+                      <input type="text" class="form-control" name="otp" placeholder="Enter OTP" aria-label="" aria-describedby="basic-addon1">
+                    </div>
+                </div>
+            <!-- Language Options Ends -->
+
+
+                <div class="text-center">
+                    <input type="submit" value="SIGN IN" class="btn btn-white form-control">
+                    <!-- <a type="submit" class="btn btn-white form-control" href="dashboard.html">VERIFY</a> -->
+                </div>
+            </form>
+            <p class="help-text text-center mt-2">Go Back to <a class="text-white font-weight-bold sign-up-text" href="/signup">Sign Up</a></p>
+
+            <hr/>
+        </div>
+
+                
+
+    </div>
+
+    <footer class="mastfoot mt-auto">
+        <div class="inner text-center">
+          <p>Application <span class="font-weight-bold">By Graphicavisions</span> <br/> &copy 2020. ALL RIGHT RESERVED </p>
+        </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        
+    </script>
+  </body>
+</html>

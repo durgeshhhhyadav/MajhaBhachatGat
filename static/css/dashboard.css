@@ -1,0 +1,134 @@
+.navbar-bachat{
+	background: linear-gradient(#cf3636, #f07c00);
+    background-repeat: no-repeat;
+    color: #FFF !important;
+}
+
+a{
+	color: #FFF;
+}
+
+.btn-outline-white{
+	color: #FFF;
+	background-color: #cf3636;
+	border: 1px solid #cf3636;
+	font-size: 1.2rem;
+	transition: 0.2s;
+}
+
+.btn-outline-white:hover{
+	color: #cf3636;
+	background: #FFF;
+	border: 1px solid #cf3636;
+}
+
+.nav-left-align{
+	font-size: 1.5rem;
+}
+
+.nav-left-align i{
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	height: 2.3rem;
+	width: 2.3rem;
+	transition: 0.2s;
+}
+
+.nav-left-align i:hover{
+	font-size: 1.6rem;
+	border: 1px solid white;
+	border-radius: 50%;
+	background: #FFF;
+	color: #cf3636;
+}
+
+.sidenav, .bellbar, .profbar{
+	display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.sidenav .row, .bellbar .row, .profbar .row{
+	max-width: 500px;
+}
+
+.notibox i{
+	background: linear-gradient(#cf3636, #f07c00) !important; 
+	transition: 0.2s;
+}
+
+.side-box:hover, .notibox:hover, .profbox:hover{
+	background: linear-gradient(#cf3636, #f07c00);
+	box-shadow: 1px 3px 5px #cf3636;
+	color: #FFF;
+}
+
+.side-box:hover .nav-icon-box{
+	/*background-color: #FFF;*/
+}
+
+.side-box:hover .nav-icon-box i{
+	color: #cf3636;
+}
+
+.side-box:hover .nav-icon-text{
+	color: #FFF;
+}
+
+.notibox:hover i{
+	background: #FFF !important;
+	color: #cf3636;
+	border-color: 1px solid #cf3636;
+}
+
+.btn-col{
+	padding: 0;
+}
+
+.profbox .message{
+	color: #cf3636;
+}
+
+.profbox:hover .message{
+	color: #FFF;
+}
+
+.table-header{
+	/*background:#cf3636;*/
+	width:100%;
+}
+
+.table-header .table-header-title{
+	padding-top:2px;
+	line-height: 36px;
+	color:rgb(255, 255, 255);
+	font-weight:300;
+	word-spacing: 2px;
+}
+
+.table-header .add-btn i{
+	cursor: pointer;
+	line-height: 36px;
+	color:#FFF;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #FFF !important;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #FFF !important;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #FFF !important;
+}
+
+input[type=text], textarea{
+	font-weight: 600;
+	background-color: rgba(255,130,172,0.5);
+	box-shadow: 1px 1px 1px #1c1c1c;
+}

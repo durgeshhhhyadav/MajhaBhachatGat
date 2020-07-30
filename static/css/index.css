@@ -1,0 +1,97 @@
+*{
+    transition: 0.1s;
+}
+ 
+body{
+    background: linear-gradient(#cf3636, #f07c00);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+svg:hover{
+    fill: red;
+}
+
+.inner-container{
+    max-width: 500px;
+}
+
+.img-container{
+    text-align: center;
+    height: 40vh;
+}
+
+.logo{
+    max-height: 100%;
+}
+
+.welcome-text{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.hr-container{
+    height: 25px;
+    overflow: hidden;
+    margin: 3% 0% 0%;
+}
+
+.bottom-line{
+    width: 100%;
+    height: 2px;
+    background: #FFF;
+    position: relative;
+    top: 5px;
+}
+
+.over-dot{
+    float: left;
+    width: 12px;
+    height: 12px;
+    background-color: #FFF;
+    position: relative;
+    top: -5px;
+    margin-left: 50%;
+    border-radius: 50%;
+    border: 5px solid transparent;
+}
+
+.btn-white{
+    background-color: #FFF;
+    color: #cf3636;
+    font-weight: 700;
+    font-size: 1.5rem;
+    height: 4rem;
+    text-transform: uppercase;
+    letter-spacing: 0rem;
+    transition: 0.5s;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-white:hover{
+    border: 1px solid #FFF;
+    background-color: #cf3636;
+    color: #FFF;
+}
+
+
+.form-check{
+    margin: auto;
+}
+
+hr{
+    border: 1px solid #FFF;
+}
+
+.table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+   background-color: rgba(207, 54, 54, 0.2);
+}
